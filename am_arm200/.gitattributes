@@ -1,0 +1,3 @@
+# Store meshes and print files as normal git objects, not Git LFS (LFS on a fork uses the parent quota).
+*.stl -filter -diff -merge binary
+*.STL -filter -diff -merge binary
